@@ -1,0 +1,102 @@
+/* ====== Global Styling ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f70b0f;
+    color: #333;
+}
+
+/* ====== Main Content Styling ====== */
+[data-testid="stAppViewContainer"] {
+    background-color: #064352;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* ====== Sidebar Styling ====== */
+[data-testid="stSidebar"] {
+    background-color: #1f2937;
+    color: white;
+    padding-top: 2rem;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #ffffff;
+}
+
+/* Sidebar inputs and buttons */
+[data-testid="stSidebar"] .stButton>button {
+    background-color: #2563eb;
+    color: rgb(243, 8, 8);
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+[data-testid="stSidebar"] .stButton>button:hover {
+    background-color: #1d4ed8;
+}
+
+/* ====== Buttons ====== */
+.stButton>button {
+    background-color: #2563eb;
+    color: rgb(250, 15, 15);
+    border: none;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* ====== Titles and Headers ====== */
+h1, h2, h3, h4 {
+    color: #111827;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+/* ====== Markdown & Text ====== */
+.markdown-text-container {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ====== Tables ====== */
+.stDataFrame {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.stDataFrame thead {
+    background-color: #f3f4f6;
+    font-weight: 600;
+}
+
+/* ====== Metrics ====== */
+[data-testid="stMetric"] {
+    background-color: #f9fafb;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* ====== Scrollbar (optional) ====== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #9ca3af;
+    border-radius: 4px;
+}
